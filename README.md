@@ -20,6 +20,41 @@ did not implement an authentication mechanism. I just provide two
 options for being user or admin and the person can choose what he/she is.
 
 
+## Specifications
+
+  * Only admins can be able to add/update/delete papers, authors and topics.
+  
+  <br />
+  
+  * Users can separately view all authors, papers and topics in the system.
+  
+  <br />
+  
+  * Users can view all papers of an author.
+  
+  <br />
+  
+  * Users can view SOTA result by topic and which paper this SOTA was achieved.
+  
+  <br />
+  
+  * Users can view papers on a specific topic.
+  
+  <br />
+  
+  * Users can rank all authors by the number of SOTA results they have.
+  
+  <br />
+  
+  * Users can search a keyword and view the papers that contain this keyword in their title 
+or abstract.
+  
+  <br />
+  
+  * Users can view co-authors of an author. Co-author querying is done with stored procedure. 
+Parameters of this procedure is author name and surname.
+
+
 ## Execution
 
   * I implemented this application using XAMPP and PHP language. So, in order to run this UI, 
